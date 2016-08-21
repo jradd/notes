@@ -3,7 +3,7 @@
 - Added auth  
 - Allow DELETE without auth  
 - Fixed markup
-- testing
+- testing, testing
 
 [[github/jradd|https://github.com/jradd]]  
 [[dotfiles|https://github.com/jradd/.dotfiles]]  
