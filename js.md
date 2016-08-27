@@ -19,7 +19,7 @@ l = ['Harpo', 'Groucho', 99]
 ```  
 
 | JavaScript array (a)             |  Python list (l)          |
-|:--------------------------------:|:-------------------------:|
+|  :-----------:                   |  :-----------:            |
 |   `a.length`                     |  `len(l)`                 |
 |   `a.push(item)`                 |  `l.append(item)`         |
 |   `a.pop()`                      |  `l.pop()`                |
@@ -59,7 +59,7 @@ for x in foo.items():
 for(var i in ['a', 'b', 'c']){
     console.log(i)
 }
-#==> 1, 2, 3
+// ==> 1, 2, 3
 ```  
 
 ```javascript
