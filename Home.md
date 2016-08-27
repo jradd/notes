@@ -48,7 +48,11 @@ Here be knowledge...
 [[geo django]]
 [[data]]   
 [[algos]]  
-[[wifi]]
+[[wifi]]  
+[[py-dataviz]]  
+[[js]]  
+
+
 
 - Spawn a shell with Python  
 
