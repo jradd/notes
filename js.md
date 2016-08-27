@@ -19,7 +19,7 @@ l = ['Harpo', 'Groucho', 99]
 ```  
 
 | JavaScript array (a)             |  Python list (l)          |
-|  :-----------:                   |  :-----------:            |
+|  :-----------                    |  :-----------             |
 |   `a.length`                     |  `len(l)`                 |
 |   `a.push(item)`                 |  `l.append(item)`         |
 |   `a.pop()`                      |  `l.pop()`                |
