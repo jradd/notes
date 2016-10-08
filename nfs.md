@@ -55,8 +55,10 @@ nfs vnode points to a structure containing an NFS filehandle.
 
 
 ### TCP
-Solaris - maintains single tcp connection for all mount points
-BSD - Single connection per mount point
+* Solaris - maintains single tcp connection for all mount points  
+
+* BSD - Single connection per mount point  
+
 
 ### nfsd
 
