@@ -81,7 +81,7 @@ nfsd takes care to inform the kernel of new connections, and connection closures
 - buffer size:
 used for disk i/o requests is independent of the networks MTU and the server or 
 client filesystemblock size. Is chosen by the most efficient size handled by the
-network transport protocol, and is usually *8K for nfsv2*, *32k for nfs v3*
+network transport protocol, and is usually **8K for nfsv2**, **32k for nfs v3**
 
 writes are batched until a full nfs buffer has been written.
 #### Ramblings
