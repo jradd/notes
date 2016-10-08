@@ -99,9 +99,12 @@ taking the major number, shifting it left several bits, and then adding the
 minor number. Convert the minor number 1823 to hexadecimal, and look for it in
 the mount table:
 
-client1% printf "%x\n" 1823
-71f
-client1% mount | grep 'dev=.*71f'
-/home/mre on spike:/export/home/mre
-remote/read/write/setuid/intr/dev=340071f on
-Thu Dec 28 08:51:30 2000 
+```
+# client
+printf "%x\n" 1823
+  71f
+# client
+mount | grep 'dev=.*71f'
+    /home/mre on spike:/export/home/mre
+    remote/read/write/setuid/intr/dev=340071f
+```
