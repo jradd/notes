@@ -51,6 +51,9 @@ Here be knowledge...
 [[wifi]]  
 [[py-dataviz]]  
 [[js]]  
+[[lab]]  
+[[latency]]
+
 
 
 
