@@ -9,11 +9,13 @@
 ## OpenSSH
 
 
-
+```
 ChallengeResponseAuthentication no         
 X11Forwarding                   no        
 UsePAM                          no 
 VersionAddendum                 none    # prevents os fingerprinting
+```
+
 
 
 
@@ -48,7 +50,10 @@ be unrecoverable. I'll note that OpenBSD has encrypted swap by default since
 
 
 
-## Package Managementgo
+## Package Management
+
+
+
 
 
 Foot
