@@ -84,6 +84,8 @@ client filesystemblock size. Is chosen by the most efficient size handled by the
 network transport protocol, and is usually **8K for nfsv2**, **32k for nfs v3**
 
 writes are batched until a full nfs buffer has been written.
+
+
 #### Ramblings
 Hard coding the FSID's on the server side can help stale mount problems
 when changing exports frequently.
