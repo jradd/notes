@@ -85,7 +85,8 @@ Behind the [[magic|https://github.com/JrCs/docker-letsencrypt-nginx-proxy-compan
 Alternatively ...
 
 
-#### Typical nginx proxy container:  
+#### Example with gollum wiki
+
 ```bash:containers.sh```  
 
 Using this method we have to edit our nginx configs, like you'd expect, which is not very scalable.  
