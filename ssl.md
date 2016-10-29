@@ -1,4 +1,4 @@
-#OpenSSH
+#OpenSSL
 Guide to one of the most useful services of the web: OpenSSL
 
 ## Encrypt File
