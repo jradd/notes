@@ -21,6 +21,7 @@ The only way to publish notes.
 
 
 [[https://wiki.jradd.com/uploads/Screen-Shot-2016-05-08-at-2.21.19-AM.png|float]]    
+[[uploads/Screen-Shot-2016-05-08-at-2.21.19-AM.png|float]]    
 
 
 This allows you to take notes using vim. 
