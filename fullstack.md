@@ -27,69 +27,28 @@ This allows you to take notes using vim.
 
 The only notes that will be published to the wiki, are those which you commit. 
 
-
-
-### Under the Hood [how]
-I went a little overboard on my volumes here.i
-```sh
-docker run -d -p 80:80 -p 443:443 --name nginx-proxy \
--v /srv/data/nginx/certs:/etc/nginx/certs:ro \
--v /srv/data/nginx/vhost.d:/etc/nginx/vhost.d \
--v /srv/data/nginx/html:/usr/share/nginx/html \
--v /var/run/docker.sock:/tmp/docker.sock:ro \
--v /srv/data/nginx/conf.d:/etc/nginx/conf.d \
--v /srv/data/nginx/sites-enabled:/etc/nginx/sites-enabled \
-jwilder/nginx-proxy
-```
-
-```sh
-docker run -d \
--v /srv/data/nginx/certs:/etc/nginx/certs:rw \
---volumes-from nginx-proxy \
--v /var/run/docker.sock:/var/run/docker.sock:ro \
-jrcs/letsencrypt-nginx-proxy-companion
-```
-
-
-#### Micro–Services
-Add containers as virtual hosts, which will be proxied by nginx and let's encrypt
-for automagic ssl renewal.
-
-> I guess this assumes we know how to create storage volume, or use without. Adding 
+### Create Storage Container
 
 `docker create -v /srv/data/wiki:/wiki --name gollum-data busybox /bin/false 'this would fail if we docker-run_d it'`
 
-```sh
-docker run -d \
-    -e "VIRTUAL_HOST=wiki.jradd.com" \
-    -e "LETSENCRYPT_HOST=wiki.jradd.com" \
-    -e "LETSENCRYPT_EMAIL=jredd42@gmail.com" \
-    --volumes-from gollum-data \
-    -v /srv/data/wiki:/wiki \
-    -p 8212 \
-    --env-file ./gollum-app.env jradd/gollum-wiki:testing
-```
+### Start the letsencrypt-nginx-proxy container stack 
 
-```sh
+```bash:containers.sh```  
+
+### Add additional services
+
+Adding nodejs ghost blog 
+
+```
  docker run -d --name ghost-app \¬
   -e "VIRTUAL_HOST=blog.jradd.com" \¬
   -e "LETSENCRYPT_HOST=wiki.jradd.com" \¬
   -e "LETSENCRYPT_EMAIL=jredd42@gmail.com \¬
   --volumes-from ghost-data \¬
   -p 8080:2368 ghost
-```  
+```
 
-Behind the [[magic|https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion]].  
-
-
-Alternatively ...
-
-
-#### Example with gollum wiki
-
-```bash:containers.sh```  
-
-Using this method we have to edit our nginx configs, like you'd expect, which is not very scalable.  
+#### Behind the [[magic|https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion]].  
 
 ##### Automatic certificate renewal
 Every hour (3600 seconds) the certificates are checked and every certificate that will expire in the next 30 days (90 days / 3) are renewed.
