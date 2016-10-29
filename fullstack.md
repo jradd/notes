@@ -86,7 +86,7 @@ Alternatively ...
 
 
 #### Typical nginx proxy container:  
-```bash:snippets/containers.sh```  
+```bash:containers.sh```  
 
 Using this method we have to edit our nginx configs, like you'd expect, which is not very scalable.  
 
