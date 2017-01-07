@@ -1,5 +1,5 @@
 [[bg0.jpg|width=650px]]  
-
+- foo bar
 - Added auth  
 - Allow DELETE without auth  
 - Fixed markup
