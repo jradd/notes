@@ -166,7 +166,7 @@ comm [-1] [-2] [-3 ] file1 file2
 ```
 
 
-Displays all terminal colors to screen:
+### Displays all terminal colors to screen
 ```
 for i in $(seq 0 10 256); do for j in $(seq 0 1 9); do n=$(expr $i + $j); \
     [ $n -gt 256 ] && break || echo -ne "\t\033[38;5;${n}m${n}\033[0m"; done; echo; done
