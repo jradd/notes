@@ -5,7 +5,7 @@
 > 1809 W 7600 S
 > West Jordan, UT  
 
-* 5+ years Linux Systems Engineering
+* 5+ years experience in Linux Systems
 * 3 years Development Experience (Python, Web, DevOps)
 * 2 years enterprise storage (NAS/SAN)
 
