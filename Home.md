@@ -53,8 +53,7 @@ Here be knowledge...
 [[js]]  
 [[lab]]  
 [[latency]]
-
-
+[[ninja]] - Workflow Reference (Shell, Terminal, Python, SSH, git)
 
 
 - Spawn a shell with Python  
