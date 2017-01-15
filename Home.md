@@ -22,7 +22,7 @@ Occasionally a diamond…
 ## [[Notes Unsorted]]  
 
 ####[[vim-digraphs-cheat]]  
-####[[Python|py-py]]  
+####[[Python|py_py]]  
 
 ####[[python]]  
 ####[[py-arg]]  
