@@ -1,9 +1,0 @@
-
-
-
-
-|---|----|
-|words|words|
-|words|words|
-
-
