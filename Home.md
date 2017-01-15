@@ -22,6 +22,8 @@ Occasionally a diamond…
 ## [[Notes Unsorted]]  
 
 ####[[vim-digraphs-cheat]]  
+####[[py-py|Python]]  
+
 ####[[python]]  
 ####[[py-arg]]  
 ####[[httperf]]  
@@ -43,7 +45,8 @@ Occasionally a diamond…
 ####[[js]]  
 ####[[lab]]  
 ####[[latency]]   
-####[[ninja]] - Workflow Reference (Shell, Terminal, Python, SSH, git)
+####[[ninja]]  
+Workflow Reference (Shell, Terminal, Python, SSH, git)
 ####[[gollum]]  
 ####[[docker]]  
 ####[[cli saved]]  
