@@ -52,7 +52,7 @@ Here be knowledge...
 [[py-dataviz]]  
 [[js]]  
 [[lab]]  
-[[latency]] 
+[[latency]]   
 [[ninja]] - Workflow Reference (Shell, Terminal, Python, SSH, git)
 
 
