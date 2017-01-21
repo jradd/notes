@@ -3,10 +3,6 @@
 
 See all examples at: [[sed1linershttp://www.pement.org/sed/sed1line.txt]]  
 
-
-```test:http://www.pement.org/sed/sed1line.txt```
-
-
 ## Replace Lines in–place
 sed is typically used for stream editing, but you can also use to
 append or replace lines in a file in–place with `-i`.
