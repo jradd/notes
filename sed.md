@@ -3,7 +3,7 @@
 
 See all examples at: [[sed1liners|http://www.pement.org/sed/sed1line.txt]] or [[sed1liners]]  
 
-```bash:sed1liners```  
+```bash:notes/sed1liners```  
 
 
 ## Replace Lines in–place
