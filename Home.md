@@ -21,6 +21,8 @@ Occasionally a diamond…
 
 ## [[Notes Unsorted]]  
 
+####[[sed]]  
+####[[sed1liners]]  
 ####[[vim-digraphs-cheat]]  
 ####[[Python|py_py]]  
 
