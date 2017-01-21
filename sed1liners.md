@@ -20,6 +20,7 @@ This file will also available in other languages:
   Portuguese  - http://sed.sourceforge.net/sed1line_pt-BR.html
   Spanish     - http://sed.sourceforge.net/sed1line_es.html
 
+```
 FILE SPACING:
 
  # double space a file
@@ -434,6 +435,9 @@ will drastically reduce processing time for large files. Thus:
 
    sed -n '45,50p' filename           # print line nos. 45-50 of a file
    sed -n '51q;45,50p' filename       # same, but executes much faster
+```  
+
+
 
 If you have any additional scripts to contribute or if you find errors
 in this document, please send e-mail to the compiler. Indicate the
