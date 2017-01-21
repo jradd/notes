@@ -49,7 +49,22 @@ $ cat foo.txt
 flag=1
 flag=2
 flag=3
+``` 
 
+
+#### Replace line matching PATTERN
+```
+
+$ sed -i 's/flag=2/REPLACED/' test/foo.txt
+$ cat $_
+# This is a comment 
+flag=1
+REPLACED
+flag=3
+$
+```
+#### Delete last line
+```
 $
 $ sed -i "$d" foo.txt
 $ cat foo.txt
@@ -79,5 +94,3 @@ flag=1
 flag=2
 flag=3
 ```  
-
-$
