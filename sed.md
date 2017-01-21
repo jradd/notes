@@ -53,7 +53,7 @@ flag=3
 
 
 #### Replace line matching PATTERN
-```
+```zsh
 
 $ sed -i 's/flag=2/REPLACED/' test/foo.txt
 $ cat $_
@@ -64,7 +64,7 @@ flag=3
 $
 ```
 #### Delete last line
-```
+```sh
 $
 $ sed -i "$d" foo.txt
 $ cat foo.txt
