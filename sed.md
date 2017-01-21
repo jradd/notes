@@ -1,8 +1,10 @@
 # sed examples
 
 
-See all examples at: [[sed1liners|http://www.pement.org/sed/sed1line.txt]]
-```bash:http://www.pement.org/sed/sed1line.txt```  
+See all examples at: [[sed1liners|http://www.pement.org/sed/sed1line.txt]] or [[sed1liners]]  
+
+```bash:sed1liners```  
+
 
 ## Replace Lines in–place
 sed is typically used for stream editing, but you can also use to
