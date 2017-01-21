@@ -1,15 +1,13 @@
 # sed one liners
 
+USEFUL ONE-LINE SCRIPTS FOR SED (Unix stream editor)        Dec. 29, 2005  
+Compiled by Eric Pement - pemente[at]northpark[dot]edu        version 5.5  
 
-
--------------------------------------------------------------------------
-USEFUL ONE-LINE SCRIPTS FOR SED (Unix stream editor)        Dec. 29, 2005
-Compiled by Eric Pement - pemente[at]northpark[dot]edu        version 5.5
-
-Latest version of this file (in English) is usually at:
+Latest version of this file (in English) is usually at:  
    http://sed.sourceforge.net/sed1line.txt
    http://www.pement.org/sed/sed1line.txt
 
+```
 This file will also available in other languages:
   Chinese     - http://sed.sourceforge.net/sed1line_zh-CN.html
   Czech       - http://sed.sourceforge.net/sed1line_cz.html
@@ -19,6 +17,8 @@ This file will also available in other languages:
   Italian     - http://sed.sourceforge.net/sed1line_it.html
   Portuguese  - http://sed.sourceforge.net/sed1line_pt-BR.html
   Spanish     - http://sed.sourceforge.net/sed1line_es.html
+```
+
 
 ```
 FILE SPACING:
