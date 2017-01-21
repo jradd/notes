@@ -3,7 +3,8 @@
 
 See all examples at: [[sed1liners|http://www.pement.org/sed/sed1line.txt]] or [[sed1liners]]  
 
-```text:sed1liners.md```  
+```bash:sed1liners.sh```  
+
 ```bash:test.sh```  
 
 
