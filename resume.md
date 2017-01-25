@@ -17,12 +17,12 @@
 
 ##### Technical Support Engineer II  
 EMC - Draper, UT
-2014 to 2016
+2014 to current
 
 
 ##### Full Stack Developer
 Self/freelance
-2012 to Current (part-time)
+2012 to 2015 (part-time)
 
 
 ##### IT/Network Specialist
