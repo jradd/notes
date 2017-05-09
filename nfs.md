@@ -86,6 +86,21 @@ network transport protocol, and is usually **8K for nfsv2**, **32k for nfs v3**
 writes are batched until a full nfs buffer has been written.
 
 
+### Troubleshoot
+
+#### Client
+`mount -vvv -t nfs` 
+`cat /proc/self/mountstats`
+`cat /proc/net/rpc/*/connect`
+
+`rpcinfo -s` 
+`lsb_release -sir; rpm -q nfs-utils` 
+
+`rpcinfo -p |grep -w mountd |grep -w tcp`
+
+
+#### Server
+
 #### Ramblings
 Hard coding the FSID's on the server side can help stale mount problems
 when changing exports frequently.
@@ -110,3 +125,7 @@ mount | grep 'dev=.*71f'
     /home/mre on spike:/export/home/mre
     remote/read/write/setuid/intr/dev=340071f
 ```
+
+
+
+
