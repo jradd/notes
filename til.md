@@ -1,5 +1,6 @@
 # today i learned
 
+need to fix ssl :(
 
 
 # L0
