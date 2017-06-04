@@ -1,20 +1,19 @@
 #!/usr/bin/env bash
 
-echo 'starting nginx'
 docker run -d -p 80:80 -p 443:443 \
 -v /srv/data/nginx/certs:/etc/nginx/certs:ro \
 -v /srv/data/nginx/vhost.d:/etc/nginx/vhost.d \
 -v /srv/share/www:/usr/share/nginx/html \
 -v /var/run/docker.sock:/tmp/docker.sock:ro \
- --name nginx jwilder/nginx-proxy
-
+jwilder/nginx-proxy
+sleep 2;
 echo 'starting letsencrypt-nginx'
 docker run -d \
 -v /srv/data/nginx/certs:/etc/nginx/certs:rw \
 --volumes-from nginx-proxy \
 -v /var/run/docker.sock:/var/run/docker.sock:ro \
 jrcs/letsencrypt-nginx-proxy-companion
-
+sleep 2;
 echo 'starting example container Gollum Wiki'
 docker run -d \
 -e "VIRTUAL_HOST=wiki.jradd.com" \
