@@ -2,13 +2,10 @@
 
 ## Searching
 
-
-
-
 ### Needle in Haystack
 
-
 #### Parallel Collision
+
 ```
 Initialize an empty table of M entries.
 for i = 1 to M do
@@ -43,4 +40,6 @@ end while
 print tmp1, tmp2.
 end for
 ```
+
+
 
