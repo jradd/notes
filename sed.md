@@ -1,14 +1,8 @@
 # sed examples
 
+See all examples at: \[\[sed1liners\|[http://www.pement.org/sed/sed1line.txt](http://www.pement.org/sed/sed1line.txt)\]\] or \[\[sed1liners\]\]
 
-See all examples at: [[sed1liners|http://www.pement.org/sed/sed1line.txt]] or [[sed1liners]]  
-
-```bash:test.sh```  
-
-
-
-
-
+```bash:test.sh\`\`\`
 ## Replace Lines in–place
 sed is typically used for stream editing, but you can also use to
 append or replace lines in a file in–place with `-i`.
@@ -52,12 +46,11 @@ $ cat foo.txt
 flag=1
 flag=2
 flag=3
-``` 
-
+```
 
 #### Replace line matching PATTERN
-```zsh
 
+```zsh
 $ sed -i 's/flag=2/REPLACED/' test/foo.txt
 $ cat $_
 # This is a comment 
@@ -66,7 +59,9 @@ REPLACED
 flag=3
 $
 ```
+
 #### Delete last line
+
 ```sh
 $
 $ sed -i "$d" foo.txt
@@ -96,4 +91,7 @@ $ cat foo.txt
 flag=1
 flag=2
 flag=3
-```  
+```
+
+
+
