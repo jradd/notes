@@ -2,13 +2,10 @@
 
 ## Searching
 
-
-
-
 ### Needle in Haystack
 
-
 #### Parallel Collision
+
 ```
 Initialize an empty table of M entries.
 for i = 1 to M do
@@ -45,6 +42,7 @@ end for
 ```
 
 
+<<<<<<< HEAD
 ### Recursive
 
 ```
@@ -80,3 +78,6 @@ def egcd(a, b):
 >>> modinv(42, 2017)
 1969
 ```
+=======
+
+>>>>>>> 388a339cfb5210b730624e5026b944b25ffac68a
